@@ -14,6 +14,7 @@
 		2EAF283923DF3830004409B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EAF283823DF3830004409B9 /* Preview Assets.xcassets */; };
 		2EAF283C23DF3830004409B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EAF283A23DF3830004409B9 /* LaunchScreen.storyboard */; };
 		2EAF284723DF3830004409B9 /* jambitAcademy2020Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF284623DF3830004409B9 /* jambitAcademy2020Tests.swift */; };
+		2EE0C76F23DF3B1E00F487C0 /* ExpertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0C76E23DF3B1E00F487C0 /* ExpertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		2EAF284223DF3830004409B9 /* jambitAcademy2020Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jambitAcademy2020Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAF284623DF3830004409B9 /* jambitAcademy2020Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jambitAcademy2020Tests.swift; sourceTree = "<group>"; };
 		2EAF284823DF3830004409B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EE0C76E23DF3B1E00F487C0 /* ExpertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +81,9 @@
 		2EAF282E23DF382D004409B9 /* jambitAcademy2020 */ = {
 			isa = PBXGroup;
 			children = (
+				2EE0C76D23DF3AD200F487C0 /* Views */,
 				2EAF282F23DF382D004409B9 /* AppDelegate.swift */,
 				2EAF283123DF382D004409B9 /* SceneDelegate.swift */,
-				2EAF283323DF382D004409B9 /* ContentView.swift */,
 				2EAF283523DF3830004409B9 /* Assets.xcassets */,
 				2EAF283A23DF3830004409B9 /* LaunchScreen.storyboard */,
 				2EAF283D23DF3830004409B9 /* Info.plist */,
@@ -105,6 +107,15 @@
 				2EAF284823DF3830004409B9 /* Info.plist */,
 			);
 			path = jambitAcademy2020Tests;
+			sourceTree = "<group>";
+		};
+		2EE0C76D23DF3AD200F487C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2EAF283323DF382D004409B9 /* ContentView.swift */,
+				2EE0C76E23DF3B1E00F487C0 /* ExpertView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +221,7 @@
 			files = (
 				2EAF283023DF382D004409B9 /* AppDelegate.swift in Sources */,
 				2EAF283223DF382D004409B9 /* SceneDelegate.swift in Sources */,
+				2EE0C76F23DF3B1E00F487C0 /* ExpertView.swift in Sources */,
 				2EAF283423DF382D004409B9 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
