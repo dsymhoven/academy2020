@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct ExpertView: View {
+    let expert: Expert
+
     var body: some View {
         HStack {
             Image("david")
@@ -16,12 +18,12 @@ struct ExpertView: View {
                 .frame(width: 50, height: 50)
 
             VStack(alignment: .leading) {
-                Text("David Symhoven")
+                Text(expert.name)
                     .font(.headline)
-                Text("Scrum Master")
+                Text(expert.job)
                     .font(.subheadline)
                     .foregroundColor(.gray)
-                Text("666")
+                Text(expert.phone)
                     .font(.subheadline)
                     .foregroundColor(.gray)
             }
@@ -33,7 +35,7 @@ struct ExpertView: View {
 
 struct ExpertView_Previews: PreviewProvider {
     static var previews: some View {
-        ExpertView()
+        ExpertView(expert: Expert(name: "David Symhoven", job: "Scrum Master", phone: "666"))
             .previewLayout(.fixed(width: 300, height: 70))
     }
 }
