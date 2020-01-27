@@ -8,7 +8,9 @@
 
 import Foundation
 
-struct Expert {
+struct Expert: Identifiable {
+    var id: Int
+
     let name: String
     let job: String
     let phone: String

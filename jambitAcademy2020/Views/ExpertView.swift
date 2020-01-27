@@ -13,7 +13,7 @@ struct ExpertView: View {
 
     var body: some View {
         HStack {
-            Image("david")
+            Image(expert.name)
                 .resizable()
                 .frame(width: 50, height: 50)
 
@@ -35,7 +35,7 @@ struct ExpertView: View {
 
 struct ExpertView_Previews: PreviewProvider {
     static var previews: some View {
-        ExpertView(expert: Expert(name: "David Symhoven", job: "Scrum Master", phone: "666"))
+        ExpertView(expert: experts[0])
             .previewLayout(.fixed(width: 300, height: 70))
     }
 }
