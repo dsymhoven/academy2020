@@ -14,8 +14,13 @@ let experts = [Expert(id: 1, name: "David Symhoven", job: "Scrum Master", phone:
 
 struct ExpertList: View {
     var body: some View {
-        List(experts) { expert in
-            ExpertView(expert: expert)
+        NavigationView {
+            List(experts) { expert in
+                NavigationLink(destination: ExpertDetailView()) {
+                    ExpertView(expert: expert)
+                }
+            }
+            .navigationBarTitle(Text("Experts"))
         }
     }
 }
