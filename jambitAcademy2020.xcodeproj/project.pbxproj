@@ -18,8 +18,9 @@
 		2EE0C77223DF3E1600F487C0 /* Expert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0C77123DF3E1600F487C0 /* Expert.swift */; };
 		2EE0C77423DF3FC800F487C0 /* ExpertList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0C77323DF3FC800F487C0 /* ExpertList.swift */; };
 		2EE0C77723DF43B800F487C0 /* Experts.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EE0C77623DF43B800F487C0 /* Experts.json */; };
-		2EE0C77923DF440D00F487C0 /* ExpertDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0C77823DF440D00F487C0 /* ExpertDetailView.swift */; };
+		2EE0C77923DF440D00F487C0 /* ExpertStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0C77823DF440D00F487C0 /* ExpertStarView.swift */; };
 		2EE0C77B23DF487B00F487C0 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0C77A23DF487B00F487C0 /* CircleView.swift */; };
+		2EE0C77D23E01ED200F487C0 /* ExpertDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0C77C23E01ED200F487C0 /* ExpertDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +49,9 @@
 		2EE0C77123DF3E1600F487C0 /* Expert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expert.swift; sourceTree = "<group>"; };
 		2EE0C77323DF3FC800F487C0 /* ExpertList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertList.swift; sourceTree = "<group>"; };
 		2EE0C77623DF43B800F487C0 /* Experts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Experts.json; sourceTree = "<group>"; };
-		2EE0C77823DF440D00F487C0 /* ExpertDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertDetailView.swift; sourceTree = "<group>"; };
+		2EE0C77823DF440D00F487C0 /* ExpertStarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertStarView.swift; sourceTree = "<group>"; };
 		2EE0C77A23DF487B00F487C0 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		2EE0C77C23E01ED200F487C0 /* ExpertDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +129,9 @@
 				2EAF283323DF382D004409B9 /* ContentView.swift */,
 				2EE0C76E23DF3B1E00F487C0 /* ExpertView.swift */,
 				2EE0C77323DF3FC800F487C0 /* ExpertList.swift */,
-				2EE0C77823DF440D00F487C0 /* ExpertDetailView.swift */,
+				2EE0C77823DF440D00F487C0 /* ExpertStarView.swift */,
 				2EE0C77A23DF487B00F487C0 /* CircleView.swift */,
+				2EE0C77C23E01ED200F487C0 /* ExpertDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -256,8 +259,9 @@
 				2EAF283023DF382D004409B9 /* AppDelegate.swift in Sources */,
 				2EAF283223DF382D004409B9 /* SceneDelegate.swift in Sources */,
 				2EE0C77423DF3FC800F487C0 /* ExpertList.swift in Sources */,
+				2EE0C77D23E01ED200F487C0 /* ExpertDetailView.swift in Sources */,
 				2EE0C76F23DF3B1E00F487C0 /* ExpertView.swift in Sources */,
-				2EE0C77923DF440D00F487C0 /* ExpertDetailView.swift in Sources */,
+				2EE0C77923DF440D00F487C0 /* ExpertStarView.swift in Sources */,
 				2EAF283423DF382D004409B9 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

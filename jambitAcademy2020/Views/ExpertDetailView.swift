@@ -2,7 +2,7 @@
 //  ExpertDetailView.swift
 //  jambitAcademy2020
 //
-//  Created by David Symhoven on 27.01.20.
+//  Created by David Symhoven on 28.01.20.
 //  Copyright © 2020 davidsymhoven. All rights reserved.
 //
 
@@ -10,46 +10,20 @@ import SwiftUI
 
 struct ExpertDetailView: View {
     var body: some View {
-        HStack {
-            VStack(alignment: .leading) {
-                Text(experts[0].name)
-                Text(experts[0].job).font(.subheadline).foregroundColor(.gray)
-                Text(experts[0].phone).font(.subheadline).foregroundColor(.gray)
-            }
+        VStack {
+            Image("Sebensee")
+                .resizable()
+                .scaledToFit()
+                .edgesIgnoringSafeArea(.top)
 
-            VStack(alignment: .trailing) {
-                Text("Swift")
-                Text("iOS")
-                Text("RxSwift")
-            }
+            CircleView()
+            .offset(y: -130)
+                .padding(.bottom, -130)
 
-            VStack {
-                HStack {
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill")
-                }
+            ExpertStarView()
 
-                HStack {
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill")
-                }
-
-                HStack {
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill")
-                    Image(systemName: "star.fill")
-                }
-            }
+            Spacer()
         }
-        .padding()
     }
 }
 
