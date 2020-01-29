@@ -12,6 +12,7 @@
 		2E60A73823E1992A00F751AD /* FirebaseSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60A73723E1992A00F751AD /* FirebaseSession.swift */; };
 		2E60A73D23E1C4EC00F751AD /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60A73C23E1C4EC00F751AD /* Webservice.swift */; };
 		2E60A74023E1C63C00F751AD /* ExpertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60A73F23E1C63C00F751AD /* ExpertViewModel.swift */; };
+		2E60A74223E1CFE200F751AD /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60A74123E1CFE200F751AD /* Skill.swift */; };
 		2EAF283023DF382D004409B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF282F23DF382D004409B9 /* AppDelegate.swift */; };
 		2EAF283223DF382D004409B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF283123DF382D004409B9 /* SceneDelegate.swift */; };
 		2EAF283423DF382D004409B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF283323DF382D004409B9 /* ContentView.swift */; };
@@ -44,6 +45,7 @@
 		2E60A73723E1992A00F751AD /* FirebaseSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseSession.swift; sourceTree = "<group>"; };
 		2E60A73C23E1C4EC00F751AD /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		2E60A73F23E1C63C00F751AD /* ExpertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertViewModel.swift; sourceTree = "<group>"; };
+		2E60A74123E1CFE200F751AD /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
 		2EAF282C23DF382D004409B9 /* jambitAcademy2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jambitAcademy2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAF282F23DF382D004409B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EAF283123DF382D004409B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				2EE0C77123DF3E1600F487C0 /* Expert.swift */,
+				2E60A74123E1CFE200F751AD /* Skill.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EE0C77B23DF487B00F487C0 /* CircleView.swift in Sources */,
+				2E60A74223E1CFE200F751AD /* Skill.swift in Sources */,
 				2EE0C77223DF3E1600F487C0 /* Expert.swift in Sources */,
 				2E60A73D23E1C4EC00F751AD /* Webservice.swift in Sources */,
 				2EAF283023DF382D004409B9 /* AppDelegate.swift in Sources */,

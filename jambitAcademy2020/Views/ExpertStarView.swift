@@ -18,35 +18,26 @@ struct ExpertStarView: View {
                 Text(expert.phone ?? "").font(.subheadline).foregroundColor(.gray)
             }
 
-            VStack(alignment: .trailing) {
-                Text("Swift")
-                Text("iOS")
-                Text("RxSwift")
-            }
-
-            VStack {
-                HStack {
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill")
+            if !expert.skills!.isEmpty {
+                VStack(alignment: .trailing) {
+                    ForEach(expert.skills!) { skill in
+                        Text(skill.name ?? "")
+                    }
                 }
 
-                HStack {
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill")
-                }
 
-                HStack {
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill").foregroundColor(.yellow)
-                    Image(systemName: "star.fill")
-                    Image(systemName: "star.fill")
+                VStack {
+                    ForEach(expert.skills!) { skill in
+                        HStack {
+                            ForEach(0..<skill!.level!) { _ in
+                                Image(systemName: "star.fill").foregroundColor(.yellow)
+                            }
+                            ForEach(skill!.level!..<5) { _ in
+                                Image(systemName: "star.fill")
+                            }
+
+                        }
+                    }
                 }
             }
         }

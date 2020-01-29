@@ -16,12 +16,14 @@ struct Expert: Identifiable, Decodable {
     let job: String?
     let phone: String?
     let favoritePlace: String?
+    var skills: [Skill]?
 
     init(name: String, job: String, phone: String, favoritePlace: String) {
         self.name = name
         self.job = job
         self.phone = phone
         self.favoritePlace = favoritePlace
+        self.skills = []
         self.id = Int.random(in: 1..<1000)
     }
     
@@ -34,6 +36,13 @@ struct Expert: Identifiable, Decodable {
         job = dict["job"] as? String
         phone = dict["phone"] as? String
         favoritePlace = dict["favoritePlace"] as? String
+        skills = [Skill]()
+        if let array = dict["skills"] as? [[String: Any]] {
+            for dict in array {
+                let skill = Skill(with: dict)
+                skills?.append(skill)
+            }
+        }
         id = Int.random(in: 1..<1000)
     }
 }
