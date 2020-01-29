@@ -7,12 +7,25 @@
 //
 
 import Foundation
+import FirebaseFirestore
 
-struct Expert: Identifiable {
+struct Expert: Identifiable, Decodable {
     var id: Int
 
-    let name: String
-    let job: String
-    let phone: String
-    let favoritePlace: String
+    let name: String?
+    let job: String?
+    let phone: String?
+    let favoritePlace: String?
+
+    init?(snapshot: DocumentSnapshot) {
+        guard let dict = snapshot.data() else {
+            return nil
+        }
+
+        name = dict["name"] as? String
+        job = dict["job"] as? String
+        phone = dict["phone"] as? String
+        favoritePlace = dict["favoritePlace"] as? String
+        id = Int.random(in: 1..<1000)
+    }
 }

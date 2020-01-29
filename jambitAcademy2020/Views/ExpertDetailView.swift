@@ -13,16 +13,16 @@ struct ExpertDetailView: View {
 
     var body: some View {
         VStack {
-            Image(expert.favoritePlace)
+            Image(expert.favoritePlace ?? "")
                 .resizable()
                 .scaledToFit()
                 .edgesIgnoringSafeArea(.top)
 
-            CircleView(image: Image(expert.name))
+            CircleView(image: Image(expert.name ?? ""))
                 .offset(y: -230)
                 .padding(.bottom, -130)
 
-            ExpertStarView()
+            ExpertStarView(expert: expert)
 
             Spacer()
         }
@@ -31,6 +31,6 @@ struct ExpertDetailView: View {
 
 struct ExpertDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ExpertDetailView(expert: experts[0])
+        ExpertDetailView(expert: UserData().experts[0])
     }
 }

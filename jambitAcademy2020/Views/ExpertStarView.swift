@@ -9,12 +9,13 @@
 import SwiftUI
 
 struct ExpertStarView: View {
+    var expert: Expert
     var body: some View {
         HStack {
             VStack(alignment: .leading) {
-                Text(experts[0].name)
-                Text(experts[0].job).font(.subheadline).foregroundColor(.gray)
-                Text(experts[0].phone).font(.subheadline).foregroundColor(.gray)
+                Text(expert.name ?? "")
+                Text(expert.job ?? "").font(.subheadline).foregroundColor(.gray)
+                Text(expert.phone ?? "").font(.subheadline).foregroundColor(.gray)
             }
 
             VStack(alignment: .trailing) {
@@ -55,6 +56,6 @@ struct ExpertStarView: View {
 
 struct ExpertStarView_Previews: PreviewProvider {
     static var previews: some View {
-        ExpertStarView()
+        ExpertStarView(expert: UserData().experts[0])
     }
 }

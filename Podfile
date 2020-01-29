@@ -6,7 +6,10 @@ target 'jambitAcademy2020' do
   use_frameworks!
 
   # Pods for jambitAcademy2020
+  pod 'Firebase'
   pod 'Firebase/Analytics'
+  pod 'Firebase/Firestore'
+ 
   target 'jambitAcademy2020Tests' do
     inherit! :search_paths
     # Pods for testing

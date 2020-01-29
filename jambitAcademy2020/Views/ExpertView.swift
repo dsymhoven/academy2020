@@ -13,17 +13,17 @@ struct ExpertView: View {
 
     var body: some View {
         HStack {
-            Image(expert.name)
+            Image(expert.name ?? "")
                 .resizable()
                 .frame(width: 50, height: 50)
 
             VStack(alignment: .leading) {
-                Text(expert.name)
+                Text(expert.name ?? "")
                     .font(.headline)
-                Text(expert.job)
+                Text(expert.job ?? "")
                     .font(.subheadline)
                     .foregroundColor(.gray)
-                Text(expert.phone)
+                Text(expert.phone ?? "")
                     .font(.subheadline)
                     .foregroundColor(.gray)
             }
@@ -35,7 +35,7 @@ struct ExpertView: View {
 
 struct ExpertView_Previews: PreviewProvider {
     static var previews: some View {
-        ExpertView(expert: experts[0])
+        ExpertView(expert: UserData().experts[0])
             .previewLayout(.fixed(width: 300, height: 70))
     }
 }
