@@ -14,4 +14,5 @@ struct Expert: Identifiable {
     let name: String
     let job: String
     let phone: String
+    let favoritePlace: String
 }

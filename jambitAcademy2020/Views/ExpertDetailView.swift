@@ -9,15 +9,17 @@
 import SwiftUI
 
 struct ExpertDetailView: View {
+    var expert: Expert
+
     var body: some View {
         VStack {
-            Image("Sebensee")
+            Image(expert.favoritePlace)
                 .resizable()
                 .scaledToFit()
                 .edgesIgnoringSafeArea(.top)
 
-            CircleView()
-            .offset(y: -130)
+            CircleView(image: Image(expert.name))
+                .offset(y: -230)
                 .padding(.bottom, -130)
 
             ExpertStarView()
@@ -29,6 +31,6 @@ struct ExpertDetailView: View {
 
 struct ExpertDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ExpertDetailView()
+        ExpertDetailView(expert: experts[0])
     }
 }

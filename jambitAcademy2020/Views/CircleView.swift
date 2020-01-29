@@ -9,8 +9,10 @@
 import SwiftUI
 
 struct CircleView: View {
+    var image: Image
+
     var body: some View {
-        Image(experts[0].name)
+        image
             .resizable()
             .frame(width: 300, height: 300)
             .scaledToFit()
@@ -22,6 +24,6 @@ struct CircleView: View {
 
 struct CircleView_Previews: PreviewProvider {
     static var previews: some View {
-        CircleView()
+        CircleView(image: Image(experts[0].name))
     }
 }

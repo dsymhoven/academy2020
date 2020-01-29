@@ -8,15 +8,15 @@
 
 import SwiftUI
 
-let experts = [Expert(id: 1, name: "David Symhoven", job: "Scrum Master", phone: "666"),
-               Expert(id: 2, name: "Daniel Benkmann", job: "Scrum Master", phone: "123"),
-               Expert(id: 3, name: "Max Mustermann", job: "Software Architekt", phone: "987")]
+let experts = [Expert(id: 1, name: "David Symhoven", job: "Scrum Master", phone: "666", favoritePlace: "Sebensee"),
+               Expert(id: 2, name: "Daniel Benkmann", job: "Scrum Master", phone: "123", favoritePlace: "TurtleRock"),
+               Expert(id: 3, name: "Max Mustermann", job: "Software Architekt", phone: "987", favoritePlace: "Space")]
 
 struct ExpertList: View {
     var body: some View {
         NavigationView {
             List(experts) { expert in
-                NavigationLink(destination: ExpertDetailView()) {
+                NavigationLink(destination: ExpertDetailView(expert: expert)) {
                     ExpertView(expert: expert)
                 }
             }
