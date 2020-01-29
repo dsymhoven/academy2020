@@ -1,1 +1,21 @@
 
+[
+    {
+        "name": "David Symhoven",
+        "job": "Scrum Master",
+        "phone": "666",
+        "favoritePlace": "Sebensee"
+    },
+    {
+        "name": "Daniel Benkmann",
+        "job": "Scrum Master",
+        "phone": "123",
+        "favoritePlace": "TurtleRock"
+    },
+    {
+        "name": "Max Mustermann",
+        "job": "Software Architekt",
+        "phone": "567",
+        "favoritePlace": "Space"
+    }
+]

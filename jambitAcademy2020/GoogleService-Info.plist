@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1026953726690-7litoffk40rfc59lueo0djh5d0g4oamr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1026953726690-7litoffk40rfc59lueo0djh5d0g4oamr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDRak8sUcuy6vkZUibZNJDFYibhjbSOAds</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1026953726690</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jambit.academy2020</string>
+	<key>PROJECT_ID</key>
+	<string>academy2020-1d6be</string>
+	<key>STORAGE_BUCKET</key>
+	<string>academy2020-1d6be.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1026953726690:ios:536c372fb8bd4d006eacbb</string>
+	<key>DATABASE_URL</key>
+	<string>https://academy2020-1d6be.firebaseio.com</string>
+</dict>
+</plist>
