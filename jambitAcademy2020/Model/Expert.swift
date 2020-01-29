@@ -17,6 +17,14 @@ struct Expert: Identifiable, Decodable {
     let phone: String?
     let favoritePlace: String?
 
+    init(name: String, job: String, phone: String, favoritePlace: String) {
+        self.name = name
+        self.job = job
+        self.phone = phone
+        self.favoritePlace = favoritePlace
+        self.id = Int.random(in: 1..<1000)
+    }
+    
     init?(snapshot: DocumentSnapshot) {
         guard let dict = snapshot.data() else {
             return nil

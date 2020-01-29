@@ -10,7 +10,8 @@
 		1979C1BF2CA3899630E09992 /* Pods_jambitAcademy2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C959E745898A512AA9DC9C /* Pods_jambitAcademy2020.framework */; };
 		2E60A73623E1897D00F751AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E60A73523E1897D00F751AD /* GoogleService-Info.plist */; };
 		2E60A73823E1992A00F751AD /* FirebaseSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60A73723E1992A00F751AD /* FirebaseSession.swift */; };
-		2E60A73A23E1A01A00F751AD /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60A73923E1A01A00F751AD /* UserData.swift */; };
+		2E60A73D23E1C4EC00F751AD /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60A73C23E1C4EC00F751AD /* Webservice.swift */; };
+		2E60A74023E1C63C00F751AD /* ExpertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60A73F23E1C63C00F751AD /* ExpertViewModel.swift */; };
 		2EAF283023DF382D004409B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF282F23DF382D004409B9 /* AppDelegate.swift */; };
 		2EAF283223DF382D004409B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF283123DF382D004409B9 /* SceneDelegate.swift */; };
 		2EAF283423DF382D004409B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF283323DF382D004409B9 /* ContentView.swift */; };
@@ -41,7 +42,8 @@
 /* Begin PBXFileReference section */
 		2E60A73523E1897D00F751AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2E60A73723E1992A00F751AD /* FirebaseSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseSession.swift; sourceTree = "<group>"; };
-		2E60A73923E1A01A00F751AD /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		2E60A73C23E1C4EC00F751AD /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		2E60A73F23E1C63C00F751AD /* ExpertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertViewModel.swift; sourceTree = "<group>"; };
 		2EAF282C23DF382D004409B9 /* jambitAcademy2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jambitAcademy2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAF282F23DF382D004409B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EAF283123DF382D004409B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +90,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E60A73B23E1C4DA00F751AD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2E60A73C23E1C4EC00F751AD /* Webservice.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2E60A73E23E1C62900F751AD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2E60A73F23E1C63C00F751AD /* ExpertViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		2EAF282323DF382D004409B9 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +129,8 @@
 		2EAF282E23DF382D004409B9 /* jambitAcademy2020 */ = {
 			isa = PBXGroup;
 			children = (
+				2E60A73E23E1C62900F751AD /* ViewModels */,
+				2E60A73B23E1C4DA00F751AD /* Service */,
 				2EE0C77523DF42FD00F487C0 /* Resources */,
 				2EE0C77023DF3E0400F487C0 /* Model */,
 				2EE0C76D23DF3AD200F487C0 /* Views */,
@@ -160,7 +180,6 @@
 			isa = PBXGroup;
 			children = (
 				2EE0C77123DF3E1600F487C0 /* Expert.swift */,
-				2E60A73923E1A01A00F751AD /* UserData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -365,15 +384,16 @@
 			files = (
 				2EE0C77B23DF487B00F487C0 /* CircleView.swift in Sources */,
 				2EE0C77223DF3E1600F487C0 /* Expert.swift in Sources */,
+				2E60A73D23E1C4EC00F751AD /* Webservice.swift in Sources */,
 				2EAF283023DF382D004409B9 /* AppDelegate.swift in Sources */,
 				2EAF283223DF382D004409B9 /* SceneDelegate.swift in Sources */,
 				2EE0C77423DF3FC800F487C0 /* ExpertList.swift in Sources */,
-				2E60A73A23E1A01A00F751AD /* UserData.swift in Sources */,
 				2EE0C77D23E01ED200F487C0 /* ExpertDetailView.swift in Sources */,
 				2EE0C76F23DF3B1E00F487C0 /* ExpertView.swift in Sources */,
 				2EE0C77923DF440D00F487C0 /* ExpertStarView.swift in Sources */,
 				2EAF283423DF382D004409B9 /* ContentView.swift in Sources */,
 				2E60A73823E1992A00F751AD /* FirebaseSession.swift in Sources */,
+				2E60A74023E1C63C00F751AD /* ExpertViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

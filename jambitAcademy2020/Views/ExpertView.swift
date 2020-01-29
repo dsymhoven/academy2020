@@ -35,7 +35,7 @@ struct ExpertView: View {
 
 struct ExpertView_Previews: PreviewProvider {
     static var previews: some View {
-        ExpertView(expert: UserData().experts[0])
+        ExpertView(expert: Expert(name: "A", job: "B", phone: "1", favoritePlace: ""))
             .previewLayout(.fixed(width: 300, height: 70))
     }
 }

@@ -56,6 +56,6 @@ struct ExpertStarView: View {
 
 struct ExpertStarView_Previews: PreviewProvider {
     static var previews: some View {
-        ExpertStarView(expert: UserData().experts[0])
+        ExpertStarView(expert: Expert(name: "A", job: "B", phone: "1", favoritePlace: ""))
     }
 }

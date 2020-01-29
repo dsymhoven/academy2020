@@ -9,11 +9,11 @@
 import SwiftUI
 
 struct ExpertList: View {
-    @ObservedObject var userData = UserData()
+    @ObservedObject var expertViewModel = ExpertViewModel()
 
     var body: some View {
         NavigationView {
-            List(userData.experts) { expert in
+            List(expertViewModel.experts) { expert in
                 NavigationLink(destination: ExpertDetailView(expert: expert)) {
                     ExpertView(expert: expert)
                 }
