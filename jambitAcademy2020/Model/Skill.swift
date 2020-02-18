@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FirebaseFirestore
 
 struct Skill: Identifiable, Decodable {
     var id: Int?
@@ -17,5 +18,15 @@ struct Skill: Identifiable, Decodable {
         self.name = dict["name"] as? String
         self.level = dict["level"] as? Int
         self.id = Int.random(in: 1..<1000)
+    }
+
+    init?(snapshot: DocumentSnapshot) {
+        guard let dict = snapshot.data() else {
+            return nil
+        }
+
+        name = dict["name"] as? String
+        level = dict["level"] as? Int
+        id = Int.random(in: 1..<1000)
     }
 }

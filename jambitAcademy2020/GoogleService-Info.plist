@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>1026953726690-co63d9or9kmillntn0a1b51m6gjfjvm1.apps.googleusercontent.com</string>
+	<string>52698026492-v45qudffivpmabs1q1ensdm0emd4in2o.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1026953726690-co63d9or9kmillntn0a1b51m6gjfjvm1</string>
+	<string>com.googleusercontent.apps.52698026492-v45qudffivpmabs1q1ensdm0emd4in2o</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDRak8sUcuy6vkZUibZNJDFYibhjbSOAds</string>
+	<string>AIzaSyCfgKtRDYbsNmo1t-ppgvmAD1WtZKRv_mU</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1026953726690</string>
+	<string>52698026492</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>de.davidsymhoven.jambitAcademy2020</string>
 	<key>PROJECT_ID</key>
-	<string>academy2020-1d6be</string>
+	<string>academy2019</string>
 	<key>STORAGE_BUCKET</key>
-	<string>academy2020-1d6be.appspot.com</string>
+	<string>academy2019.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,8 +29,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1026953726690:ios:d3918dfb06bd50e76eacbb</string>
+	<string>1:52698026492:ios:77aad9953cd06af334a279</string>
 	<key>DATABASE_URL</key>
-	<string>https://academy2020-1d6be.firebaseio.com</string>
+	<string>https://academy2019.firebaseio.com</string>
 </dict>
 </plist>

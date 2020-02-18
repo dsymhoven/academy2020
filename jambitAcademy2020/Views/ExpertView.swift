@@ -20,7 +20,7 @@ struct ExpertView: View {
             VStack(alignment: .leading) {
                 Text(expert.name ?? "")
                     .font(.headline)
-                Text(expert.job ?? "")
+                Text(expert.role ?? "")
                     .font(.subheadline)
                     .foregroundColor(.gray)
                 Text(expert.phone ?? "")
@@ -35,7 +35,7 @@ struct ExpertView: View {
 
 struct ExpertView_Previews: PreviewProvider {
     static var previews: some View {
-        ExpertView(expert: Expert(name: "A", job: "B", phone: "1", favoritePlace: ""))
+        ExpertView(expert: Expert(name: "A", role: "B", phone: "1", team: ""))
             .previewLayout(.fixed(width: 300, height: 70))
     }
 }

@@ -13,7 +13,7 @@ struct ExpertDetailView: View {
 
     var body: some View {
         VStack {
-            Image(expert.favoritePlace ?? "")
+            Image(expert.team ?? "")
                 .resizable()
                 .scaledToFit()
                 .edgesIgnoringSafeArea(.top)
@@ -23,7 +23,6 @@ struct ExpertDetailView: View {
                 .padding(.bottom, -130)
 
             ExpertStarView(expert: expert)
-
             Spacer()
         }
     }
@@ -31,6 +30,6 @@ struct ExpertDetailView: View {
 
 struct ExpertDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ExpertDetailView(expert: Expert(name: "A", job: "B", phone: "1", favoritePlace: ""))
+        ExpertDetailView(expert: Expert(name: "A", role: "B", phone: "1", team: ""))
     }
 }

@@ -14,7 +14,7 @@ struct ExpertStarView: View {
         HStack {
             VStack(alignment: .leading) {
                 Text(expert.name ?? "")
-                Text(expert.job ?? "").font(.subheadline).foregroundColor(.gray)
+                Text(expert.role ?? "").font(.subheadline).foregroundColor(.gray)
                 Text(expert.phone ?? "").font(.subheadline).foregroundColor(.gray)
             }
 
@@ -47,6 +47,6 @@ struct ExpertStarView: View {
 
 struct ExpertStarView_Previews: PreviewProvider {
     static var previews: some View {
-        ExpertStarView(expert: Expert(name: "A", job: "B", phone: "1", favoritePlace: ""))
+        ExpertStarView(expert: Expert(name: "A", role: "B", phone: "1", team: ""))
     }
 }

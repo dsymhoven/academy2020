@@ -9,6 +9,7 @@ target 'jambitAcademy2020' do
   pod 'Firebase'
   pod 'Firebase/Analytics'
   pod 'Firebase/Firestore'
+  pod 'SwiftyBeaver'
  
   target 'jambitAcademy2020Tests' do
     inherit! :search_paths

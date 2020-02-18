@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1979C1BF2CA3899630E09992 /* Pods_jambitAcademy2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C959E745898A512AA9DC9C /* Pods_jambitAcademy2020.framework */; };
-		2E60A73623E1897D00F751AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E60A73523E1897D00F751AD /* GoogleService-Info.plist */; };
 		2E60A73823E1992A00F751AD /* FirebaseSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60A73723E1992A00F751AD /* FirebaseSession.swift */; };
 		2E60A73D23E1C4EC00F751AD /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60A73C23E1C4EC00F751AD /* Webservice.swift */; };
 		2E60A74023E1C63C00F751AD /* ExpertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60A73F23E1C63C00F751AD /* ExpertViewModel.swift */; };
@@ -20,6 +19,8 @@
 		2EAF283923DF3830004409B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EAF283823DF3830004409B9 /* Preview Assets.xcassets */; };
 		2EAF283C23DF3830004409B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EAF283A23DF3830004409B9 /* LaunchScreen.storyboard */; };
 		2EAF284723DF3830004409B9 /* jambitAcademy2020Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF284623DF3830004409B9 /* jambitAcademy2020Tests.swift */; };
+		2EC2547F23FBE7E2008DA90C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2EC2547E23FBE7E2008DA90C /* GoogleService-Info.plist */; };
+		2EC2548123FBF35D008DA90C /* SkillList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC2548023FBF35D008DA90C /* SkillList.swift */; };
 		2EE0C76F23DF3B1E00F487C0 /* ExpertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0C76E23DF3B1E00F487C0 /* ExpertView.swift */; };
 		2EE0C77223DF3E1600F487C0 /* Expert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0C77123DF3E1600F487C0 /* Expert.swift */; };
 		2EE0C77423DF3FC800F487C0 /* ExpertList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0C77323DF3FC800F487C0 /* ExpertList.swift */; };
@@ -41,7 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E60A73523E1897D00F751AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2E60A73723E1992A00F751AD /* FirebaseSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseSession.swift; sourceTree = "<group>"; };
 		2E60A73C23E1C4EC00F751AD /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		2E60A73F23E1C63C00F751AD /* ExpertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertViewModel.swift; sourceTree = "<group>"; };
@@ -57,6 +57,8 @@
 		2EAF284223DF3830004409B9 /* jambitAcademy2020Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jambitAcademy2020Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAF284623DF3830004409B9 /* jambitAcademy2020Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jambitAcademy2020Tests.swift; sourceTree = "<group>"; };
 		2EAF284823DF3830004409B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EC2547E23FBE7E2008DA90C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2EC2548023FBF35D008DA90C /* SkillList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillList.swift; sourceTree = "<group>"; };
 		2EE0C76E23DF3B1E00F487C0 /* ExpertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertView.swift; sourceTree = "<group>"; };
 		2EE0C77123DF3E1600F487C0 /* Expert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expert.swift; sourceTree = "<group>"; };
 		2EE0C77323DF3FC800F487C0 /* ExpertList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertList.swift; sourceTree = "<group>"; };
@@ -139,7 +141,7 @@
 				2EAF282F23DF382D004409B9 /* AppDelegate.swift */,
 				2EAF283123DF382D004409B9 /* SceneDelegate.swift */,
 				2EAF283523DF3830004409B9 /* Assets.xcassets */,
-				2E60A73523E1897D00F751AD /* GoogleService-Info.plist */,
+				2EC2547E23FBE7E2008DA90C /* GoogleService-Info.plist */,
 				2EAF283A23DF3830004409B9 /* LaunchScreen.storyboard */,
 				2EAF283D23DF3830004409B9 /* Info.plist */,
 				2EAF283723DF3830004409B9 /* Preview Content */,
@@ -174,6 +176,7 @@
 				2EE0C77823DF440D00F487C0 /* ExpertStarView.swift */,
 				2EE0C77A23DF487B00F487C0 /* CircleView.swift */,
 				2EE0C77C23E01ED200F487C0 /* ExpertDetailView.swift */,
+				2EC2548023FBF35D008DA90C /* SkillList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -301,7 +304,7 @@
 			files = (
 				2EAF283C23DF3830004409B9 /* LaunchScreen.storyboard in Resources */,
 				2EAF283923DF3830004409B9 /* Preview Assets.xcassets in Resources */,
-				2E60A73623E1897D00F751AD /* GoogleService-Info.plist in Resources */,
+				2EC2547F23FBE7E2008DA90C /* GoogleService-Info.plist in Resources */,
 				2EAF283623DF3830004409B9 /* Assets.xcassets in Resources */,
 				2EE0C77723DF43B800F487C0 /* Experts.json in Resources */,
 			);
@@ -386,6 +389,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EE0C77B23DF487B00F487C0 /* CircleView.swift in Sources */,
+				2EC2548123FBF35D008DA90C /* SkillList.swift in Sources */,
 				2E60A74223E1CFE200F751AD /* Skill.swift in Sources */,
 				2EE0C77223DF3E1600F487C0 /* Expert.swift in Sources */,
 				2E60A73D23E1C4EC00F751AD /* Webservice.swift in Sources */,
