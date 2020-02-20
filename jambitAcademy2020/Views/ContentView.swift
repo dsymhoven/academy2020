@@ -16,6 +16,12 @@ struct ContentView: View {
                 Image(systemName: "star.fill")
                 Text("Experts")
             }
+
+            SkillList()
+            .tabItem {
+                Image(systemName: "square.fill")
+                Text("Skills")
+            }
         }
     }
 }

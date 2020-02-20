@@ -12,6 +12,7 @@
 		2E60A73D23E1C4EC00F751AD /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60A73C23E1C4EC00F751AD /* Webservice.swift */; };
 		2E60A74023E1C63C00F751AD /* ExpertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60A73F23E1C63C00F751AD /* ExpertViewModel.swift */; };
 		2E60A74223E1CFE200F751AD /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60A74123E1CFE200F751AD /* Skill.swift */; };
+		2E80BED123FEC5AA00797032 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E80BED023FEC5AA00797032 /* ButtonView.swift */; };
 		2EAF283023DF382D004409B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF282F23DF382D004409B9 /* AppDelegate.swift */; };
 		2EAF283223DF382D004409B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF283123DF382D004409B9 /* SceneDelegate.swift */; };
 		2EAF283423DF382D004409B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF283323DF382D004409B9 /* ContentView.swift */; };
@@ -21,6 +22,8 @@
 		2EAF284723DF3830004409B9 /* jambitAcademy2020Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAF284623DF3830004409B9 /* jambitAcademy2020Tests.swift */; };
 		2EC2547F23FBE7E2008DA90C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2EC2547E23FBE7E2008DA90C /* GoogleService-Info.plist */; };
 		2EC2548123FBF35D008DA90C /* SkillList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC2548023FBF35D008DA90C /* SkillList.swift */; };
+		2EC2548323FBF48A008DA90C /* SkillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC2548223FBF48A008DA90C /* SkillViewModel.swift */; };
+		2EC2548523FBFDBC008DA90C /* SkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC2548423FBFDBC008DA90C /* SkillView.swift */; };
 		2EE0C76F23DF3B1E00F487C0 /* ExpertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0C76E23DF3B1E00F487C0 /* ExpertView.swift */; };
 		2EE0C77223DF3E1600F487C0 /* Expert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0C77123DF3E1600F487C0 /* Expert.swift */; };
 		2EE0C77423DF3FC800F487C0 /* ExpertList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0C77323DF3FC800F487C0 /* ExpertList.swift */; };
@@ -46,6 +49,7 @@
 		2E60A73C23E1C4EC00F751AD /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		2E60A73F23E1C63C00F751AD /* ExpertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertViewModel.swift; sourceTree = "<group>"; };
 		2E60A74123E1CFE200F751AD /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		2E80BED023FEC5AA00797032 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		2EAF282C23DF382D004409B9 /* jambitAcademy2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jambitAcademy2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAF282F23DF382D004409B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EAF283123DF382D004409B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 		2EAF284823DF3830004409B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EC2547E23FBE7E2008DA90C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2EC2548023FBF35D008DA90C /* SkillList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillList.swift; sourceTree = "<group>"; };
+		2EC2548223FBF48A008DA90C /* SkillViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillViewModel.swift; sourceTree = "<group>"; };
+		2EC2548423FBFDBC008DA90C /* SkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillView.swift; sourceTree = "<group>"; };
 		2EE0C76E23DF3B1E00F487C0 /* ExpertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertView.swift; sourceTree = "<group>"; };
 		2EE0C77123DF3E1600F487C0 /* Expert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expert.swift; sourceTree = "<group>"; };
 		2EE0C77323DF3FC800F487C0 /* ExpertList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertList.swift; sourceTree = "<group>"; };
@@ -106,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				2E60A73F23E1C63C00F751AD /* ExpertViewModel.swift */,
+				2EC2548223FBF48A008DA90C /* SkillViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -177,6 +184,8 @@
 				2EE0C77A23DF487B00F487C0 /* CircleView.swift */,
 				2EE0C77C23E01ED200F487C0 /* ExpertDetailView.swift */,
 				2EC2548023FBF35D008DA90C /* SkillList.swift */,
+				2EC2548423FBFDBC008DA90C /* SkillView.swift */,
+				2E80BED023FEC5AA00797032 /* ButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -390,14 +399,17 @@
 			files = (
 				2EE0C77B23DF487B00F487C0 /* CircleView.swift in Sources */,
 				2EC2548123FBF35D008DA90C /* SkillList.swift in Sources */,
+				2E80BED123FEC5AA00797032 /* ButtonView.swift in Sources */,
 				2E60A74223E1CFE200F751AD /* Skill.swift in Sources */,
 				2EE0C77223DF3E1600F487C0 /* Expert.swift in Sources */,
+				2EC2548523FBFDBC008DA90C /* SkillView.swift in Sources */,
 				2E60A73D23E1C4EC00F751AD /* Webservice.swift in Sources */,
 				2EAF283023DF382D004409B9 /* AppDelegate.swift in Sources */,
 				2EAF283223DF382D004409B9 /* SceneDelegate.swift in Sources */,
 				2EE0C77423DF3FC800F487C0 /* ExpertList.swift in Sources */,
 				2EE0C77D23E01ED200F487C0 /* ExpertDetailView.swift in Sources */,
 				2EE0C76F23DF3B1E00F487C0 /* ExpertView.swift in Sources */,
+				2EC2548323FBF48A008DA90C /* SkillViewModel.swift in Sources */,
 				2EE0C77923DF440D00F487C0 /* ExpertStarView.swift in Sources */,
 				2EAF283423DF382D004409B9 /* ContentView.swift in Sources */,
 				2E60A73823E1992A00F751AD /* FirebaseSession.swift in Sources */,

@@ -9,8 +9,16 @@
 import SwiftUI
 
 struct SkillList: View {
+
+    @ObservedObject var skillViewModel = SkillViewModel()
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView() {
+            List(skillViewModel.skills) { skill in
+                SkillView(skill: skill)
+            }
+            .navigationBarTitle(Text("Skills"))
+        }
     }
 }
 

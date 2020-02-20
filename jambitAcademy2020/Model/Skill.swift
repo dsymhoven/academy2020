@@ -20,6 +20,11 @@ struct Skill: Identifiable, Decodable {
         self.id = Int.random(in: 1..<1000)
     }
 
+    init(name: String, level: Int) {
+        self.name = name
+        self.level = level
+    }
+
     init?(snapshot: DocumentSnapshot) {
         guard let dict = snapshot.data() else {
             return nil
