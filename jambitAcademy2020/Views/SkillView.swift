@@ -19,7 +19,7 @@ struct SkillView: View {
             Text(skill.name!).padding()
             Spacer()
         }
-
+        .contentShape(Rectangle())
     }
 }
 
